@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+        <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet">
+
+        <script type="text/javascript" src="{{ url_for('static', filename='main.js')}}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='main.js')}}"></script>
+
+        <title>Oliver & Tom</title>
+    </head>
+    <body>
+        <section>
+        <div class="container-fluid h-100">
+            <div class="row nav no-gutters" id="nav1">
+                <div class="col-3 link">
+                    <input type="image" src="{{ url_for('static', filename='blanco2.png')}}" name="saveForm" class="bio"/>
+                </div>
+                <div class="col-2 link">
+                    <input type="image" src="{{ url_for('static', filename='mail.png')}}" name="saveForm" class="mail"/>
+                </div>
+                <div class="col-2 link">
+                    <input type="image" src="{{ url_for('static', filename='soundcloud.png')}}" name="saveForm" class="soundcloud"/>
+                </div>
+                <div class="col-2 link">
+                    <input type="image" src="{{ url_for('static', filename='spotifylogo.png')}}" name="saveForm" class="spoti"/>
+                </div>
+                <div class="col-3 link">
+                    <input type="image" src="{{ url_for('static', filename='instagramlogoblanco.svg')}}" class="instagram"/>
+                </div>
+            </div>
+        </section>
+
+        <section>
+
+            <div class="row mainrow flex-row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                </div>
+                <div class="col-2">
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="row flex-row logorow no-gutters justify-content-center">
+                <div class="col">
+                </div>
+                <div class="col-6">
+                    <img class="logo" src="{{ url_for('static', filename='blanco2.png')}}" alt="">
+                </div>
+                <div class="col">
+                </div>
+            </div>
+            <div class="row flex-row us no-gutters">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col">
+                                <div class="container main-left d-flex align-items-center justify-content-center">
+                                    <img id="oliver" src="{{ url_for('static', filename='oliver&tom.jpg')}}" alt="oliver">
+                                </div>
+                            </div>
+                            <div class="col container">
+                                <div class="container main-right d-flex align-items-center justify-content-center">
+                                    <p id="parrafo">"Music transcends us all," that's what Oliver & Tom,    composed by Andrés Martynowicz and
+                                        Mauricio Infiesta, is all about.
+                                        This duo’s symbiosis originated in their childhood. Growing up together, they shared diverse
+                                        musical experiences in rock and pop bands, where Andrés excelled in the electric guitar and
+                                        Mauricio in the acoustic drums. A few years later, both continued their studies now choosing the
+                                        piano and synthesizer as their main instruments of production and giving rise to the creation of
+                                        the electronic music group "Oliver & Tom."
+                                        The name honors two characters of an anime called “Captain Tsubasa”, who were known for
+                                        their strong bond both on and off the football field.
+                                        These two Argentinian producers found their way to Progressive House in 2017 when they
+                                        signed their first tracks with the famous and very prestigious label "The Soundgarden," founded
+                                        by a current legend of the genre, Nick Warren.
+                                        The musical style of “O&T” is defined by incorporating groove and emotion into their songs,
+                                        allowing the audience to experience different sensations and movements while listening. The
+                                        musical influences of this duo come from some of the best electronic artists such as Nick
+                                        Warren, Hernán Cattaneo, Sasha, John Digweed, Guy J and Guy Mantzur.
+                                        Oliver & Tom came to stay, creating a musical alternative and a sound of their own that seeks to
+                                        remain at the highest levels of Progressive House. We will be following their productions and
+                                        the future that awaits this phenomenal duo!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </section>
+
+        <section>
+        <div class="contact-main-row">
+            <div class="row contact-up-row no-gutters">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <div class="container contact-title">
+                        <p>CONTACT</p>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <div class="row no-gutters contact-info">
+                    <div class="col-3"></div>
+                    <div class="col-md-3 no-gutters leftside">
+                        <p>For Promos & demos:</p>
+                        <p>info@oliverandtom.com</p>
+                    </div>
+                    <div class="col-md-3 no-gutters rightside">
+                        <p>For Bookings in Argentina:</p>
+                        <p>bookings@oliverandtom.com</p>
+
+                        <p>Worldwide Bookings:</p>
+                        <p>dom@originpresents.net</p>
+                    </div>
+                    <div class="col-3"></div>
+            </div>
+        </div>
+        </section>
+    </body>
+</html>
